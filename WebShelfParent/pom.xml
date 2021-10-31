@@ -11,15 +11,26 @@
 	<groupId>com.webshelf</groupId>
 	<artifactId>WebShelfParent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 	<name>WebShelfParent</name>
 	<description>Parent Spring Web project</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
+	
+	<modules>
+	 <module>WebShelfBackEnd</module>
+	</modules>
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
 
 		<dependency>
