@@ -6,4 +6,10 @@
   <packaging>pom</packaging>
   <name>WebShelf</name>
   <description>Root project</description>
+  
+  <modules>
+   <module>WebShelfCommon</module>
+   <module>WebShelfParent</module>  
+  </modules>
+  
 </project>
