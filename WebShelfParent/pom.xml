@@ -20,6 +20,7 @@
 	
 	<modules>
 	 <module>WebShelfBackEnd</module>
+	 <module>WebShelfFrontEnd</module>
 	</modules>
 	
 	<dependencies>
